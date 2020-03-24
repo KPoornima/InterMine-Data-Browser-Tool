@@ -217,7 +217,7 @@ body.fixed-nav {
     height: calc(100vh);
   }
   #mainNav.fixed-top .sidenav-toggler {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     display: flex;
@@ -665,7 +665,7 @@ footer.sticky-footer {
     .checkbox label::before {
       content: "";
       display: inline-block;
-      position: absolute;
+      position: relative;
       width: 17px;
       height: 17px;
       left: 0;
@@ -678,7 +678,7 @@ footer.sticky-footer {
       transition: border 0.15s ease-in-out, color 0.15s ease-in-out; }
     .checkbox label::after {
       display: inline-block;
-      position: absolute;
+      position: relative;
       width: 16px;
       height: 16px;
       left: 0;
@@ -748,7 +748,7 @@ footer.sticky-footer {
     .radio label::before {
       content: "";
       display: inline-block;
-      position: absolute;
+      position: relative;
       width: 17px;
       height: 17px;
       left: 0;
@@ -761,7 +761,7 @@ footer.sticky-footer {
       transition: border 0.15s ease-in-out; }
     .radio label::after {
       display: inline-block;
-      position: absolute;
+      position: relative;
       content: " ";
       width: 11px;
       height: 11px;
