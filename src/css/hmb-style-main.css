@@ -665,7 +665,7 @@ footer.sticky-footer {
     .checkbox label::before {
       content: "";
       display: inline-block;
-      position: absolute;
+      position: relative;
       width: 17px;
       height: 17px;
       left: 0;
@@ -678,7 +678,7 @@ footer.sticky-footer {
       transition: border 0.15s ease-in-out, color 0.15s ease-in-out; }
     .checkbox label::after {
       display: inline-block;
-      position: absolute;
+      position: relative;
       width: 16px;
       height: 16px;
       left: 0;
